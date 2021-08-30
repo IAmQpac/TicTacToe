@@ -1,2 +1,3 @@
 # TicTacToe
- TicTacToe game on Java! 
+ TicTacToe Game I made as part of a personal project. Try it out!
+
