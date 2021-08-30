@@ -16,9 +16,7 @@ public class Player {
         }else{
             setInput('X');
             System.out.println(getName() + " will represent X's");
-
         }
-
     }
 
     private void askName(){
@@ -44,7 +42,7 @@ public class Player {
     }
 
 
-    public String askPlayerTurn(){
+    public String askPlayerCellInput(){
         Scanner in = new Scanner(System.in);
         System.out.println(this.name + ", where do you want to write an " + input);
         return in.nextLine();
